@@ -1,0 +1,129 @@
+#
+# BSPWM HOTKEYS
+#
+
+super + shift + q
+	pkill -x panel; bspc quit; killall mpd
+
+super + shift + c
+	bspc window -c
+  
+## CYCLE LAYOUT
+super + n
+	bspc desktop -l next
+
+##BALANCE WINDOWS - SAME AREA
+super + b
+	bspc desktop -B
+
+##SET FLOATING OR FULLSCREEN
+super + {s,f,p}
+	bspc window -t {floating,fullscreen,pseudo_tiled}
+
+super + {grave,Tab}
+	bspc {window,desktop} -f last
+
+##SWAP DESKTOPS WITH LAST
+super + apostrophe
+	bspc window -s last
+
+#super + {o,i}
+#	bspc control --record-history off; \
+#	bspc window {older,newer} -f; \
+#	bspc control --record-history on
+
+super + y
+	bspc window -w last.manual
+
+##SWAP CURRENT WINDOW WITH THE BIGGEST ON SCREEN
+super + m
+	bspc window -s biggest
+
+super + {_,shift + }{j,k,i,l}
+	bspc window -{f,s} {left,down,up,right}
+
+super + {_,alt + }x
+	bspc window -f {next,prev}
+
+##ROTATE TREE
+super + shift + r  
+	bspc desktop -R 90
+
+##CYCLE WINDOW FORWARD OR BACKWARD
+super + {comma,period}
+	bspc desktop -C {backward,forward}
+
+##SWITCH BETWEEN DESKTOPS
+super + {Left,Right}
+	bspc desktop -f {prev,next}
+
+##SELECT WHERE TO SPLIT 
+super + ctrl + {Left,Down,Up,Right}
+	bspc window -p {left,down,up,right}
+
+##CANCEL PRESELECT SPLIT
+super + ctrl + {_,shift + }space
+	bspc {window -p cancel,desktop -c}
+
+super + alt + {Left,Down,Up,Right}
+	bspc window -e {left -10,down +10,down -10,left +10}
+
+super + alt + shift + {Left,Down,Up,Right}
+	bspc window -e {right -10,up +10,up -10,right +10}
+
+##PRESELECT RATIO SPLIT
+super + ctrl + {1-9}
+	bspc window -r 0.{1-9}
+
+##SEND WINDOW TO DESKTOP
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,window -d} ^{1-9,10}
+
+~button1
+	bspc pointer -g focus
+
+super + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+	bspc pointer -t %i %i
+
+super + @button{1-3}
+	bspc pointer -u
+
+#
+# WM INDEPENDENT HOTKEYS
+#
+
+super + Return
+	urxvt
+
+super + c
+	firefox
+
+super + t
+	transmission-gtk
+
+super + r
+	{urxvt -e ranger}
+
+super + shift + s
+	xfce4-screenshooter
+
+super + shift + x
+  xflock4
+super + {F7,F6}
+  {amixer sset Master playback 5%+,amixer sset Master playback 5%-}
+
+super + {Up,Down}
+  {amixer sset Master playback 1%+,amixer sset Master playback 1%-}
+
+super + F5
+  amixer sset Master toggle
+
+super + d
+	~/.config/bspwm/dmenuwrapper
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd

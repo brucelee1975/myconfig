@@ -1,0 +1,41 @@
+#--------------------
+# Greetings
+#--------------------
+#cat /etc/motd 
+
+#uname -a
+
+#echo "\e[0;34m    _   _   _                                _     _";
+#echo "  _| |_| |_| |     ___ _ __ _   _ _ __   ___| |__ | |__   __ _ _ __   __ _ ";
+#echo " |_   _   _| |    / __| '__| | | | '_ \ / __| '_ \| '_ \ / _\` | '_ \ / _\` | ";
+#echo "  _| |_| |_| |   | (__| |  | |_| | | | | (__| | | | |_) | (_| | | | | (_| | ";
+#echo " |_   _   _|_|    \___|_|   \__,_|_| |_|\___|_| |_|_,__/ \__,_|_| |_|\__  | ";
+#echo "   |_| |_| (_)                                                       \___/ ";
+#echo "\e[0m                 A nimble Openbox Linux Distro";
+
+
+#echo "\e[0;36m_welcome into zsh ${ZSH[5,10]}";
+#echo "////////////////////////\e[0m";
+
+# Welcome Message
+# Arch Linux Logo Welcome Message
+#c1="$(tput sgr0)$(tput setaf 4)"
+#c2="$(tput bold)$(tput setaf 4)"
+#c3="$(tput bold)$(tput setaf 7)"
+#echo "\n        $c2,$c1                       _     _ _"
+#echo "       $c2/$c1#$c2\\$c1        __ _ _ __ ___| |__ | (_)_ __  _   ___  __"
+#echo "      $c2/$c1###$c2\\$c1      / _\` | '__/ __| '_ \\| | | '_ \\| | | \\ \\/ /"
+#echo "     $c2/$c1#####$c2\\$c1    | (_| | | | (__| | | | | | | | | |_| |>  <"
+#echo "    $c2/$c1##,-,##$c2\\$c1    \\__,_|_|  \\___|_| |_|_|_|_| |_|\\__,_/_/\\_\\"
+#echo "   $c2/$c1##(   )##$c2\\$c1"
+#echo "  $c2/$c1#.--   --.#$c2\\  $c3 A simple, lightweight linux distribution."
+#echo " $c2/$c1\`           \`$c2\\$(tput sgr0)"$'\n'
+
+#echo "\e[0;32m"
+#figlet -f larry3d Welcome...
+#echo "\e[0m"
+
+#ZSH=$(zsh --version)
+#echo "Welcome to ZSH ${ZSH[5,10]}\n";
+# Reset colors
+tput sgr0

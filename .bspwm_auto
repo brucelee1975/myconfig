@@ -1,0 +1,11 @@
+#! /bin/bash
+
+sxhkd &
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b &
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/* &
+conky &
+run_once xfce4-power-manager &
+gnome-screensaver &
+#/home/nu/.config/bspwm/panel &
+$HOME/.config/bspwm/dzen &
+lxsession &

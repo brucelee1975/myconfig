@@ -1,0 +1,108 @@
+use_xft yes
+xftalpha 0.1
+xftfont profont:size=8
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 46
+border_width 0
+border_inner_margin 0
+border_outer_margin 0
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_shade_color black
+default_outline_color green
+alignment top_left
+gap_x 0
+gap_y 12
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer yes
+default_bar_size 32 6
+#imlib_cache_flush_interval 2
+
+  lua_load /home/nu/.conky_files/lua/conky.lua
+  lua_draw_hook_pre clock_rings
+
+TEXT
+${voffset 1}${image /home/nu/.conky_files/bar_down.png -p 0,0 -s 45x768}\
+ 
+ CPU 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+ MEM
+
+
+
+
+
+ HDD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ${voffset -4}NET
+
+
+
+
+
+
+
+
+
+ ${voffset -4}WIFI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

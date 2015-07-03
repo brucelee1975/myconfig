@@ -1,0 +1,174 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:  rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+Xft.lcdfilter:  lcddefault
+
+XTerm*termName: xterm-256color
+
+urxvt*termName: rxvt-256color
+!urxvt*transparent: true
+!urxvt*shading: 50
+!urxvt*depth: 32
+!urxvt*tintColor: #000000
+!urxvt*blurRadius: 15
+urxvt*saveLines: 12000
+urxvt*cursorBlink: false
+urxvt*underlineColor: #dd0000
+urxvt*scrollBar: false
+urxvt*scrollBar_right: true
+urxvt*scrollstyle: plain
+urxvt*scrollColor: #0a0a0a
+urxvt*borderLess:           false
+urxvt*inheritPixmap:	    false
+urxvt.perl-lib:             /usr/lib/urxvt/perl
+urxvt.perl-ext-common:      default,matcher,url-select,keyboard-select
+urxvt.urlLauncher: /usr/bin/firefox
+urxvt.url-select.launcher: /usr/bin/firefox
+urxvt.matcher.button: 1 
+urxvt.keysym.M-u:           perl:url-select:select_next
+urxvt.keysym.M-Escape:      perl:keyboard-select:activate
+urxvt.keysym.M-s:           perl:keyboard-select:search
+urxvt*keysym.S-Home:		\033[1;2H
+urxvt*keysym.S-End:		\033[1;2F
+urxvt*keysym.F1:		\033OP
+urxvt*keysym.F2:		\033OQ
+urxvt*keysym.F3:		\033OR
+urxvt*keysym.F4:		\033OS
+
+
+!!! FONTS
+
+!urxvt*font:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+!urxvt*boldFont:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+!urxvt*italicFont:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+!urxvt*boldItalicFont:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+
+!urxvt.font: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+!urxvt.boldFont: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+!urxvt.italicFont: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+!urxvt.boldItalicFont: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+
+!urxvt*font:              -spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1
+!urxvt*boldFont:              -spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1
+!urxvt*italicFont:              -spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1
+!urxvt*boldItalicFont:              -spectrum-berry-medium-r-normal-sans-11-80-75-75-m-50-iso10646-1
+
+urxvt*font:              -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+urxvt*boldFont:              -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+urxvt*italicFont:              -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+urxvt*boldItalicFont:              -gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+
+!urxvt*font:              -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*boldFont:              -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*italicFont:              -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*boldItalicFont:              -lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+
+!urxvt*font:              -benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*boldFont:              -benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*italicFont:              -benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+!urxvt*boldItalicFont:              -benis-uushi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+
+!urxvt*boldFont:              -misc-ohsnap-medium-r-normal--11-79-100-100-c-60-iso8859-1
+!urxvt*boldItalicFont:              -misc-ohsnap-medium-r-normal--11-79-100-100-c-60-iso8859-1
+
+!urxvt*font:              -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+!urxvt*boldFont:              -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+!urxvt*italicFont:              -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+!urxvt*boldItalicFont:              -benis-lemon-medium-r-normal--110-10-75-75-m-50-iso8859-1
+
+! terminal colors ------------------------------------------------------------
+
+*foreground:        #dedede
+*cursorColor:       #dedede
+*background:		#101010
+
+!!! CUSTOM
+! black
+    *color0:		#202020
+    *color8:		#565656
+
+! red
+    *color1:		#cc5947
+    *color9:		#e24b34
+
+! green
+    *color2:		#5c8f42
+    *color10:		#77b557
+
+! yellow
+    *color3:		#ffaa45
+    *color11:		#ffbd70
+
+! blue
+    *.color4:       #395b73
+    *.color12:      #3f769d
+
+! magenta
+    *color5:		#803e66
+    *color13:		#ba5b95
+
+! cyan
+    *color6:		#357a66
+    *color14:		#68b09a
+
+! white
+    *color7:		#ddeedd
+    *color15:		#eeffee
+
+!!! CUSTOM 2
+! black
+    !*.color0:       #101010
+    !*.color8:       #565656
+     
+! red
+    !*.color1:       #bd4a4a
+    !*.color9:       #cc6666
+     
+! green
+    !*.color2:       #b7ce42
+    !*.color10:      #bde077
+     
+! yellow
+    !*.color3:       #fea63c
+    !*.color11:      #eaa553
+    
+! blue
+    !*.color4:       #3a526b
+    !*.color12:      #66aabb
+     
+! magenta
+    !*.color5:       #ff5879
+    !*.color13:      #f26b9e
+     
+! cyan
+    !*.color6:       #72ad8c
+    !*.color14:      #9fe3bc
+     
+! white
+    !*.color7:       #dddddd
+    !*.color15:      #ffffff
+
+
+!urxvt*foreground: #101010
+!urxvt*background: #fefefe
+!urxvt*cursorColor:       #101010
+!urxvt*color0: #D8D8D8
+!urxvt*color8: #808080
+!urxvt*color1: #B3B3B3
+!urxvt*color9: #BFBFBF
+!urxvt*color2: #999999
+!urxvt*color10:#A6A6A6
+!urxvt*color3: #808080
+!urxvt*color11:#8C8C8C
+!urxvt*color4: #666666
+!urxvt*color12:#737373
+!urxvt*color5: #4D4D4D
+!urxvt*color13:#595959
+!urxvt*color6: #333333
+!urxvt*color14:#404040
+!urxvt*color7: #191919
+!urxvt*color15:#282828

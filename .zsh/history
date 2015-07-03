@@ -1,0 +1,3203 @@
+cat index.theme
+cd gnome
+svim index.theme
+sudo geany index.theme
+cd gdm
+cd greeter
+cd autostart
+,,
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/peripherals/mouse/cursor_theme
+sudo -u gdm gconftool-2 --set --type string /desktop/gnome/peripherals/mouse/cursor_theme Oxygen_White
+gnome-tweak-tool
+echo $XCURSOR_THEME
+loginctl show-session
+loginctl show-session $XDG_SESSION_ID
+cd /s
+cd /etc/systemd/system
+sudo systemctl disable gdm
+sudo systemctl enable kdm
+cd /etc/X11
+cd /usr/share/xsessions
+cd /usr/share/config/kdm/sessions
+cat kdmrc
+sudo geany kdmrc
+svim kdmrc
+sudo systemctl disable kdm
+rtorrent
+cd git
+rm -rf stag
+git clone https://github.com/numixproject/numix-icon-theme-bevel
+cd nu
+cd git/numix-icon-theme-bevel
+cp -r Numix-Bevel ../../.icons
+kde4
+killall kde4
+killall kde
+systemsettings
+date
+ssh mitjaku@193.2.128.148
+python
+tar xvfz mpdviz.tar.gz
+cd mpdviz
+pacin go
+pacins mpdviz-0.4.6-1-x86_64.pkg.tar.xz
+mpdviz -v lines
+mpdviz -c red,green,yellow,blue -v spectrum
+mpdviz --color="red,green,yellow,blue" -v spectrum
+mpdviz --color="red" -v spectrum
+mpdviz -v spectrum
+mpdviz -c blue -c red
+mpdviz -c green -c red
+mpdviz -c red & green
+mpdviz -c more
+mpdviz -c default
+vim .zsh/alias
+cat .tmux.conf
+vim .tmux.conf
+mpdviz --help
+mpdviz -i -v spectrum
+geany
+mpdviz
+mpdviz -f /tmp/mpd.fifo --icolor=true --scale=2 --step=8 -v spectrum -d true
+vim .mpd/mpd.conf
+geany .ncmpcpp/config
+cmatrix
+cmatrix --help
+cmatrix -l -u0
+cmatrix -l -u3
+cmatrix -l -u3 -a
+cmatrix -l -u3 -o
+cmatrix -l -u8 -o
+cmatrix -l -u8
+cmatrix -l -u2
+cmatrix -l -u4
+timedatectl
+xprop && dmenu_run
+dmenu_run && xprop
+dmenu && xprop
+dmenu
+dmenu_path
+xprop
+dmenu_run
+killall compton
+v .compton.conf
+cd /usr/share/fonts/misc
+cd Tmp
+rm -rf ls--
+rm -rf usr
+unzip fonts.zip
+cd usr
+cd share
+cd fonts
+cd moje
+xlsfonts|grep snap
+xlsfonts
+tar xvfz ohsnap.tar.gz
+cd ohsnap
+makepkg
+tar xvfz ohsnap-1.8.0.tar.gz
+sudo cp ohsnap6x11b.icons.pcf ohsnap6x11b.pcf ohsnap6x11r.icons.pcf ohsnap6x11r.pcf ohsnap6x13b.icons.pcf ohsnap6x13b.pcf ohsnap6x13r.icons.pcf ohsnap6x13r.pcf ohsnap7x12b.icons.pcf ohsnap7x12b.pcf ohsnap7x12r.icons.pcf ohsnap7x12r.pcf ohsnap7x14b.icons.pcf ohsnap7x14b.pcf ohsnap7x14r.icons.pcf ohsnap7x14r.pcf ohsnapu6x11b.pcf ohsnapu6x11r.pcf ohsnapu6x13b.pcf ohsnapu6x13r.pcf ohsnapu7x12b.pcf ohsnapu7x12r.pcf ohsnapu7x14b.pcf ohsnapu7x14r.pcf /usr/share/fonts/misc
+sudo mkfontdir
+sudo fc-cache -fv; fc-cache -fv
+xset fp rehash
+cd misc
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+xlsfonts|grep oh
+lss
+ll
+killall dmenu
+tmux new -s big
+tmux new -s medium
+sudo systemctl enable gdm
+v .Xdefaults
+irssi
+cd /usr/share/fonts
+cd kanjistrokeorders
+fish
+bash
+v .zsh/function
+cd Torrents/"Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]"
+ls -a
+rm verify.php
+rm -r git
+rm -rf git
+cd Downloads
+l
+..
+cd
+pacupg
+weechat
+killall mpd
+v .ncmpcpp/config
+c
+mpd
+alsamixer
+killall tmux
+tmux a -t big
+tmux a -t medium
+htop
+v .zsh/prompt
+v .bspwm_auto
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+ncmpcpp
+slurm -i wlo1
+tty-clock -c -D -C3
+ttyload
+slurm -i wlo1 -l
+ncdu
+pacin mtr
+mtr
+pacin newsbeuter
+newsbeuter -u http://yts.re/rss
+newsbeuter -u http://yts.re/rss/mitja/1080p/All/0
+man 1 newsbeuter
+newsbeuter
+c
+ls
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+pacre grml-zsh-config
+exit
+c
+exit
+tar --help
+c
+tar -cvf zsh-backup.tar .zsh .zshrc
+ls
+pacin grml-zsh-config
+zsh
+zsh
+exit
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+exit
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+vim .newsbeuter/urls
+vim .newsbeuter/urls
+geany .newsbeuter/urls
+cd Downloads
+cd Office\ 2013\ Pro\ Plus\ with\ SP1\ VL\ Slovenian\ \(x86-x64\)
+exit
+ls
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+mv .zshrc .zshrccc
+zsh
+mv .zshrcc .zshrc
+mv .zshrccv .zshrc
+mv .zshrccc .zshrc
+zsh
+ls
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+ls
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+ls
+vim .ls++.conf
+ls
+ls
+x
+ls
+ls
+cd Torrents/Argo\ Extended\ Cut\ \(2012\)\ \[1080p\]
+c
+cd /usr/share/fonts
+c
+exit
+xprop
+ls
+ls
+cd Downloads
+echo BSPWM
+mv ohsnap.tar.gz BSPWM.tar.gz
+c
+ls
+cd Downloads
+v .Xdefaults
+vim .zsh/prompt
+ls
+v .config/bspwm/scripts
+c
+ls
+v .Xdefaults
+htop
+htop
+weechat
+tmux new -s medium
+c
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+c
+c
+invaders
+c
+archey3
+c
+archey3
+killall lxsession
+archey3
+archey3
+c
+archey3; pacman --version;uname -a
+c
+pacupg
+tmux new -s big
+sudo shutdown -h now
+alsamixer
+alsamixer
+alsamixer
+mpd
+ncmpcpp
+amixer get Master | grep "Front Left:" | awk '{print $5}' | tr -d '[]'|sed s/%//
+amixer get Master | grep "Front Left:" | awk '{print $5}'
+amixer get Master | grep "Front Left:"
+amixer get Master
+amixer get Master
+amixer get Master
+amixer sset Speaker playback 100%+
+amixer sset Speaker
+amixer sset Speaker playback 100%+
+alsamixer
+alsamixer
+amixer sset Speaker playback 90%+
+amixer sset Speaker playback 5%+
+amixer sset Speaker playback 5%-
+amixer sset Speaker playback 5%-
+amixer sset Speaker playback 5%-
+amixer sset Speaker playback 5%-
+amixer sset Speaker playback 5%-
+alsamixer
+bspc window -c
+amixer get Speaker | grep "Front Left:"
+v .config/bspwm/scripts/vol.sh
+exit
+amixer get Speaker | grep "Front Left:" | awk '{print $5}'
+amixer get Speaker | grep "Front Left:" | awk '{print $6}'
+amixer get Speaker | grep "Front Left:" | awk '{print $7}'
+v .config/bspwm/bspwmrc
+v .config/sxhkd/sxhkdrc
+alsamixer
+alsamixer
+pacin pulseaudio-alsa pulseaudio
+alsamixer
+alsamixer
+exit
+alsamixer
+alsamixer
+vim .bspwm_auto
+lxsession
+alsamixer
+v .config/bspwm/scripts/vol.sh
+v .config/sxhkd/sxhkdrc
+alsamixer
+pacre kde
+pacrem kde
+pacin kde
+ttyload
+c
+ttyload
+ttyload
+ls
+ls
+ls
+ls
+ls
+invaders
+c
+ls
+ls
+invaders
+ls
+ls
+invaders
+ls
+invaders
+ranger
+ls
+ranger
+ls
+ranger
+ls
+ranger
+ls
+ranger
+c
+ls
+ranger
+ncmpcpp
+ls
+ncmpcpp
+ls
+ncmpcpp
+alsamixer
+ls
+ncmpcpp
+ls
+ls
+ls
+c
+tmux new -s big
+ncmpcpp
+mpd
+ncmpcpp
+ncmpcpp
+slurm -i wlo1 -l
+slurm -i wlo1 -l
+slurm -i wlo1 -l
+slurm -i wlo1
+newsbeuter
+newsbeuter
+newsbeuter
+htop
+tty-clock -c -D -C3
+tty-clock -c -D -C3
+tty-clock -c -D -C3
+ls
+htop
+ls
+htop
+htop
+ls
+tmux a -t big
+tmux a -t big
+ncmpcpp
+ncmpcpp
+ttyload
+tty-clock -c -D -C3
+ncmpcpp
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+alsamixer
+killall dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+invaders
+killall dzen2
+./.config/bspwm/dzen
+ncmpcpp
+tty-clock -c -D -C3
+newsbeuter
+tmux a -t big
+htop
+htop
+ls
+touch a
+ls
+ls
+c
+ls
+ls
+htop
+ls
+htop
+ncmpcpp
+ls
+c
+ncmpcpp
+ls
+ncmpcpp
+ls
+ncmpcpp
+ls
+ncmpcpp
+ncmpcpp
+ls
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ls
+ncmpcpp
+ncmpcpp
+ls
+ncmpcpp
+invaders
+htop
+ncmpcpp
+ncmpcpp
+ls
+c
+ls
+ls
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+killall dzen2
+./.config/bspwm/dzen
+ncmpcpp
+ls
+ranger
+ls
+ncmpcpp
+ls
+ncmpcpp
+ls
+c
+ls
+htop
+ls
+ranger
+ls
+ranger
+invaders
+htop
+ls
+ls
+ranger
+ls
+invaders
+ls
+invaders
+ls
+ranger
+ls
+ranger
+invaders
+ls
+htop
+ncmpcpp
+ls
+ls
+ls
+ls
+colortest
+ls
+ls -a
+colortest
+ls
+ls -a
+c
+vim .ls++.conf
+ls
+ls -a
+colortest
+ls
+ls -a
+colortest
+ls
+ls -a
+vim .ls++.conf
+ls
+ls -a
+c
+colortest
+ls -a
+ls -a
+c
+ls -a
+ls
+ls
+ls -a
+c
+ls
+htop
+ls -a
+ls
+c
+ls
+tmux a -t big
+invaders
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ls
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+ls
+ncmpcpp
+ls
+ls
+ls
+ncmpcpp
+tmux a -t big
+ls
+ls
+ls -a
+c
+ncmpcpp
+ls
+htop
+ncmpcpp
+ls
+htop
+ls
+ncmpcpp
+ls
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ls
+ncmpcpp
+htop
+ls
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+htop
+tmux a -t big
+ls
+tmux a -t big
+ncmpcpp
+htop
+tmux a -t big
+invaders
+ls
+c
+tmux a -t big
+invaders
+invaders
+tmux a -t big
+ls
+c
+tmux a -t big
+ls
+tmux a -t big
+tmux a -t big
+newsbeuter
+ls
+ls -a
+tmux a -t big
+htop
+ls
+c
+htop
+ls
+c
+htop
+ncmpcpp
+tmux a -t big
+ls
+c
+tmux a -t big
+ls -a
+c
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+htop
+htop
+tmux a -t big
+weechat
+v .tmux.conf
+tmux a -t big
+tmux new -s big
+cd Downloads
+..
+c
+ranger
+tmux new -s big
+ncmpcpp
+ranger
+ncmpcpp
+ls
+ranger
+ranger
+ls -a
+c
+ls
+c
+ls
+ls
+ls -a
+ls
+ls -a
+ls
+tmux a -t big
+ls
+ls -
+ranger
+tmux a -t big
+ls
+tmux a -t big
+ranger
+ranger
+tmux a -t big
+tmux a -t big
+tmux a -t big
+ranger
+tmux a -t big
+tmux a -t big
+invaders
+ls
+ranger
+ranger
+tmux a -t big
+tmux a -t big
+ranger
+alsamixer
+ls
+killall dzen2
+./.config/bspwm/dzen
+invaders
+invaders
+tmux a -t big
+cd Downloads
+c
+exit
+ls
+cd Downloads
+c
+ls
+ls
+c
+cd Downloads
+c
+c
+c
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+alsamixer
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+v .zsh/prompt
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+v .ncmpcpp/config
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+slurm -i wlo1
+slurm -i wlo1
+slurm -i wlo1
+newsbeuter
+ncmpcpp
+htop
+ncmpcpp
+ncmpcpp
+v .ncmpcpp/config
+v .config/sxhkd/sxhkdrc
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+c
+
+c
+
+git add .compton.conf
+git add .zsh/
+git add .zshrc
+git add .tmux.conf
+git add .config/bspwm/
+git add .config/sxhkd/
+git add .Xdefaults
+git add .conkyrc
+git add .conky_files/
+git add .config/ranger/
+git add .vimrc
+git add .vim/
+git add .bspwm_auto
+git commit -m
+git commit -m "Initial commit"
+vim README.md
+git add README.md
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git add .ncmpcpp/
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git add .mpd
+git add .mpd/
+c
+cd .mpd
+rm -rf mpd.log
+touch mpd.log
+..
+git add .mpd/
+git commit -m "Initial commit"
+git reset
+git reset [comit]]
+git reset [comit]
+git reset [initial commit]
+git reset ["Initial commit"]
+git stash drop
+git push https://github.com/mpux/configs
+cp -r .mpd mpdd
+git rm --cached .mpd/
+git rm -r --cached .mpd/
+git reset ["Initial commit"]
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+ls -a
+rm -rf mpdd
+ncmpcpp
+weechat
+c
+killall tmux
+git rm --cached .zsh/greetings
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+pacin easytag
+easytag
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+tmux a -t big
+tmux new -s big
+newsbeuter
+ttyload
+c
+ls
+c
+cd Downloads
+ls
+c
+cd Do
+cd
+c
+scrot --help
+c
+pacman --version
+c
+pacman --version; uname -a
+c
+pacman --version; uname -a
+c
+pacman --version; uname -machine
+pacman --version; uname --machine
+c
+pacman --version; uname -p
+pacman --version; uname -isrv
+pacman --version; uname -isr
+pacman --version; uname -is
+pacman --version; uname -i
+c
+pacman --version; uname -srvo
+pacman --version; uname -srv
+c
+pacman --version; uname -sr
+pacman --version; uname -sv
+pacman --version; uname -s
+v
+c
+pacman --version; uname -s
+pacman --version; uname -sr
+pacman --version; uname -srv
+v
+pacman --version; uname -srm
+c
+uname -srm
+archey3
+c
+archey
+c
+archey3
+c
+uname -srm; scrot -cd 3
+c
+uname -srm; scrot -cd 3
+newsbeuter
+vim .mpd/mpd.conf
+mpd restart
+htop
+cd mpd
+ls -a
+cd ..
+cd
+cd .mpd
+cat mpd.log
+c
+ls
+cat mpd.log
+mpdviz
+ls
+tty-clock -c -D -C3
+tty-clock -c -C3
+tty-clock -c -C3 -D
+tty-clock -c -C3 -D
+alsamixer
+killall mpd
+cd .mpd
+cat mpd.log
+mpd
+ls
+ls
+ls
+cat mpd.log
+cat mpd.log
+ncmpcpp
+ncmpcpp
+cat mpd.log
+ls
+ls
+ls
+ls
+c
+cat mpd.log
+cd .mpd
+ls
+ls
+ls
+ls -a
+ls
+alsamixer
+cat mpd.log
+cd mpd
+cd
+cd .mpd
+ls
+killall mpd
+cat mpd.log
+mpd
+cd .mpd
+ls
+mpd
+ls
+ls
+killall mpd
+ls
+ls
+mpd
+ls
+ls
+ls
+killall mpd
+exit
+mpd
+cd .mpd
+ls
+ncmpcpp
+ls
+ls
+ls
+ls
+mpd
+ls
+cd .mpd
+killall mpd
+rm -rf mpd.log
+touch mpd.log
+ls
+ls
+c
+killall easytag
+mpd
+ncmpcpp
+cd .mpd
+cd playlists
+rm hc.m3u movies.m3u rap.m3u
+y
+c
+killall mpd
+cd Music
+rm -rf movies rap
+c
+mpd
+ncmpcpp
+killall mpd
+mpd
+ncmpcpp
+killall mpd
+mpd
+ncmpcpp
+killall mpd
+cd .mpd
+rm -f mpd.log
+v .mpd/mpd.conf
+cd .mpd
+cat mpd.log
+newsbeuter
+htop
+alsamixer
+mpd
+c
+ncmpcpp
+htop
+exit
+htop
+killall mpd
+cd .mpd
+rm -rf mpd.log
+v .bspwm_auto
+v .config/bspwm/bspwmrc
+v .config/sxhkd/sxhkdrc
+ncmpcpp
+mpd
+ncmpcpp
+newsbeuter
+htop
+cd .mpd
+cat mpd.log
+mpd
+ncmpcpp
+alsamixer
+ncmpcpp
+tmux a -t big
+tmux a -t big
+invaders
+tmux a -t big
+cd .config/awesome
+./terminals.sh
+cd .config/awesome
+./terminals.sh
+invaders
+invaders
+tmux a -t big
+invaders
+tmux a -t big
+tmux a -t big
+tmux a -t big
+tmux a -t big
+c
+htop
+v .Xdefaults
+htop
+htop
+htop
+bash
+cd .config/htop
+vim htoprc
+ls
+ls -a
+c
+ls
+ls
+ls
+ls
+c
+exit
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+killall mpd
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+#
+c
+killall pulseaudio
+#
+#>'
+#>'
+#9'
+#9'
+#3,
+#3,
+Mc\
+Mc\
+Mc\
+4+c
+s
+f
+c
+#
+c
+tty-clock -c -C3 -D
+tty-clock -c -C4 -D
+tty-clock -c -C2 -D
+newsbeuter
+tmux new -s small
+c
+htoÅ¡
+htop
+htop --help
+htop -C
+htop
+htop
+htop
+tmux a -t big
+newsbeuter
+killall newsbeuter
+reboot
+vim .config/bspwm/scripts/status.sh
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/capacity
+cat /sys/class/power_supply/BAT0/capacity
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+ls
+c
+ncmpcpp
+alsamixer
+vim .Xdefaults
+ls
+alsamixer
+ranger
+cd Downloads
+unrar x DS-Scene_Rom_Tool_v1.0_build_1205_Pack.rar
+ls
+cd DS-Scene_Rom_Tool_v1.0_build_1205_Pack
+chmod +x *
+wine DS-Scene\ Rom\ Tool.exe
+chmod +x *
+exit
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+cd Downloads
+mv vinyl_record_player_black_and_white-wallpaper-1920x1080.jpg ../Pictures/Wallpapers/Rotate
+ls
+ls -a
+cd .composer/vendor
+cd bin
+..
+..
+..
+vim .zsh/export
+curl -sS https://getcomposer.org/installer | php
+pacin php-composer
+curl -sS https://getcomposer.org/installer | php
+composer
+composer global require "laravel/installer=~1.1"
+laravel
+ls
+laravel new public_html/test-laravel
+pacin php-mcrypt
+svim /etc/php/php.ini
+sudo geany /etc/php/php.ini
+php --rf mcrypt_cbc
+php -m
+php artisan serve
+php artisan serve
+laravel new public_html/test-laravel
+composer create-project laravel/laravel --prefer-dist
+laravel new public_html/test-laravel
+laravel new public_html/test-laravel
+php -m
+laravel new public_html/test-laravel
+cd public_html/test-laravel
+php --enable-zip
+ls
+cd public_html
+..
+sudo geany /etc/php/php.ini
+cd public_html
+rm -rf laravel_64fc80683ca5e6fdf280e98382b36baf.zip
+rm -rf laravel_da73c51f0b6e95e7baa1b6fae2bc8d9d.zip
+ls
+cd public_html
+rm -rf test-laravel
+laravel new public_html/test-laravel
+cd public_html/test-laravel
+ls -a
+cat server.php
+php artisan serve
+php artisan
+php artisan
+cd public_html/test-laravel
+php artisan serve
+sudo cp -r public_html public_html2
+cp -r public_html public_html2
+ls
+cd public_html
+rm -rf AA PGDFILOVCI REMINDER STOPWATCH test-laravel TWITTER
+..
+laravel new public_html/
+rm -rf public_html
+laravel new public_html
+rm -rf public_html
+mv public_html2 public_html
+cd public_html/test-laravel
+cd bootstrap
+chmod +x *
+ls
+cd public_html/test-laravel
+chmod 777 bootstrap
+cd bootstrap
+chmod 777 *
+ls
+cd public_html/test-laravel
+cd app
+cd storage
+cd logs
+...
+..
+chmod -R 755 app/storage
+chmod -R 777 app/storage
+chmod -R 755 bootstrap
+ls
+cd public_html/
+cd test-laravel
+cd app
+cd config
+vim app.php
+cd public_html/
+cd test-laravel
+chmod -R 777 bootstrap
+cd public_html/
+cd test-laravel
+chmod -R 777 bootstrap
+sudo geany /etc/php/php.ini
+php -m
+apachectl restart
+sudo apachectl restart
+php -m
+apachectl restart
+sudo apachectl stop
+sudo apachectl start
+cd public_html/test-laravel/app
+vim routes.php
+chmod -R 755 storage
+vim routes.php
+tmux new -s big
+tty-clock -c -C2 -D
+newsbeuter
+ncmpcpp
+mpd
+cd .mpd
+cd
+c
+ncmpcpp
+alsamixer
+c
+pacupg
+pacupg
+pacupg
+pacupg
+pacupg
+reboot
+htop
+htop
+vim .Xdefaults
+vim .bspwm_auto
+vim .bspwm_auto
+alsamixer
+alsamixer
+exit
+hcitool
+pacin hcitool
+pacin bluetooth
+cd Downloads
+tar xvfz blueman.tar.gz
+cd blueman
+makepkg
+pacin python2-pybluez
+pacupg
+pacin python2-pybluez
+pacin obexfs
+pacin obexftp
+pacin obextool
+makepkg
+..
+tar xvfz obex-data-server.tar.gz
+cd obex-data-server
+makepkg
+ls
+pacins obex-data-server-0.4.6-10-x86_64.pkg.tar.xz
+..
+cd blueman
+makepkg
+pacin cython2
+makepkg
+ls
+pacins blueman-1.99.alpha1-2-x86_64.pkg.tar.xz
+blueman
+ncmpcpp
+mpd
+ncmpcpp
+newsbeuter
+tmux new -s big
+bluetoothd
+blueman-manager
+blueman-applet
+htop
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+blueman-applet
+pacin bluedevil
+pacin bluez
+bluez
+bluez
+blueman-adapters
+bluedevil-wizard
+cd /media
+cd /run
+cd mount
+..
+cd media
+ls -a
+cd
+cd /run/media/nu/D2F3-6158
+cd
+dfc
+cd Downloads
+sudo dd if=/home/nu/Downloads/linuxmint-17.1-cinnamon-32bit.iso of=/dev/sdb1 oflag=direct bs=1048576
+cd /run/media/nu/D2F3-6158
+ls
+cd
+pacin gparted
+pacin dosfstools
+sudo dd if=/home/nu/Downloads/linuxmint-17.1-cinnamon-32bit.iso of=/dev/sdb1
+cd /run/media/nu/D2F3-6158
+cd /run/media/nu/Linux\ Mint\ 17.1\ Cinnamon\ 32-bit
+cd Downloads
+tar xvfz multisystem.tar.gz
+cd multisystem
+makepkg
+pacin gksu gtkdialog lsb-release mtools qemu squashfs-tools syslinux xdotool
+makepkg
+..
+tar xvfz gtkdialog-svn.tar.gz
+cd gtkdialog-svn
+makepkg
+pacins gtkdialog-svn-514-5-x86_64.pkg.tar.xz
+..
+cd multisystem
+makepkg
+ls
+pacins multisystem-1.0313-1-x86_64.pkg.tar.xz
+umount /dev/sdb1
+umount /dev/sdb1
+fdisk -l
+mount /dev/sdb1 /media
+sudo mount /dev/sdb1 /media
+cd /media
+rm -rf boot casper .disk dists isolinux MD5SUMS pool preseed README.diskdefines
+sudo rm -rf boot casper .disk dists isolinux MD5SUMS pool preseed README.diskdefines
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+ls
+cd Downloads
+ls
+ls
+vim .zsh/prompt
+newsbeuter
+alsamixer
+alsamixer
+ncmpcpp
+ncmpcpp
+tmux a -t big
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+ncmpcpp
+mpd
+ncmpcpp
+htop
+vim .Xdefaults
+vim .config/bspwm/scripts/config.sh
+killall dzen2
+./.config/bspwm/dzen
+ls
+alsamixer
+ls
+c
+invaders
+cd public_html/test-laravel
+cd app
+chmod -R 777 storage
+sudo chmod -R 777 storage
+pacin mariadb
+pacin phpmyadmin
+apachectl restart
+sudo apachectl restart
+svim /etc/php/php.ini
+sudo geany /etc/php/php.ini
+pacin php-fpm
+svim /etc/php/php.ini
+sudo geany /etc/php/php.ini
+sudo apachectl restart
+cd public_html/test-laravel
+cd public
+cat robots.txt
+mv robots.txt robotss.txt
+vim index.php
+ls
+c
+..
+vim app/config/app.php
+ls -a
+cat server.php
+c
+ls
+vim app/config/database.php
+php artisan migrate:install
+php artisan migrate:install
+vim app/config/database.php
+vim app/database/migrations/2015_02_05_151626_create_authors_table.php
+cd public_html/test-laravel
+php artisan migrate:install
+php artisan migrate:install
+php artisan migrate:install
+php artisan migrate:install
+sudo apachectl restart
+c
+php artisan migrate:install
+php artisan migrate:install
+vim public/index.php
+php artisan migrate:install
+php artisan migrate:make create_authors_table
+php artisan migrate
+ls
+cd Downloads
+unrar x blue_and_green_by_zim2687_by_zim2687-d3eztnc.rar
+ls
+rm 1280\ Blue\ \&\ Green\ by\ Zim2687.jpg 1440\ Blue\ \&\ Green\ by\ Zim2687.jpg 1600\ Blue\ \&\ Green\ by\ Zim2687.jpg 1920\ Blue\ \&\ Green\ by\ Zim2687.jpg Ipad\ Blue\ \&\ Green\ by\ Zim2687.jpg Iphone\ 4\ Blue\ \&\ Green\ by\ Zim2687.jpg
+ls
+rm Iphone\ Blue\ \&\ Green\ by\ Zim2687.jpg
+rm pre\ Blue\ \&\ Green\ by\ Zim2687.jpg
+mv 2560\ Blue\ \&\ Green\ by\ Zim2687.jpg ../Pictures/Wallpapers/Rotate
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/2560\ Blue\ \&\ Green\ by\ Zim2687.jpg
+cd Downloads
+unrar x green_lights_by_zim2687-d48k1vv.rar
+ls
+rm 2560x1600\ Green\ Lights\ by\ Zim2687.jpg Ipad\ Green\ Lights\ by\ Zim2687.jpg Iphone\ HD\ Green\ Lights\ by\ Zim2687.jpg pre\ Green\ Lights\ by\ Zim2687.jpg
+ls
+mv 2560x1440\ Green\ Lights\ by\ Zim2687.jpg ../Pictures/Wallpapers/Rotate
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/2560x1440\ Green\ Lights\ by\ Zim2687.jpg
+cd Downloads
+unrar x grape_leaves_by_zim2687-d3jkgpl.rar
+mv 2560x1440\ Grape\ Leaves\ by\ Zim2687.jpg ../Pictures/Wallpapers/Rotate
+rm *.jpg
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/2560x1440\ Grape\ Leaves\ by\ Zim2687.jpg
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/*
+cd Pictures/Wallpapers/Rotate
+ranger
+feh --randomize --bg-scale /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+crontab
+crontab --help
+crontab -l
+vim .feh.sh
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+pacupg
+pacupg
+pacupg
+c
+killall tmux
+weechat
+killall tmux
+killall tmux
+killall tmux
+killall tmux
+killall tmux
+killall tmux
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+colortest --help
+colortest -m
+colortest -l
+colortest -c
+c
+colortest -h
+c
+colortest -h
+c
+colortest
+vim .tmux.conf
+colortest
+vim .Xdefaults
+ranger
+exit
+tmux new -s fm
+ranger
+ranger
+tmux a -t big
+c
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+tmux new -s big
+newsbeuter
+htop
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+ncmpcpp
+alsamixer
+alsamixer
+ncmpcpp
+t1q\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+t\
+
+
+c
+mpd
+ncmpcpp
+c
+mpd
+c
+aslfh
+killall dzen
+killall dzen2
+bspc config top_padding 12
+bspc config top_padding 5
+bspc config top_padding 0
+bspc config top_padding 5
+vim .config/bspwm/bspwmrc
+bspc config top_padding 4
+c
+bspc config top_padding 15
+./.config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+cd .vim/colors
+vim .config/bspwm/dzen
+cd
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .config/bspwm/dzen
+vim .Xdefaults
+killall dzen2
+./.config/bspwm/dzen
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+vim .config/bspwm/scripts/config.sh
+killall dzen2
+./.config/bspwm/dzen
+vim .vimrc
+colortest
+vim .vim/colors/mustang.vim
+vim .vim/colors/mustang.vim
+c
+./.config/bspwm/dzen
+vim .config/bspwm/scripts/config.sh
+vim .vimrc
+kde-systemsettings-tree.py
+c
+archey3
+archey
+c
+ls
+ls -
+ls -a
+c
+systemsettings
+xev
+pacin xev
+xmodmap -pke | grep 43
+xmodmap -pke | grep 220
+xmodmap -pke | grep 12
+xmodmap -pke | grep 44
+xmodmap -pke | grep 49
+xmodmap -pke | grep 50
+xmodmap -pke | grep 51
+xmodmap -pke | grep 52
+xmodmap -pke | grep 53
+xmodmap -pke | grep 9
+xmodmap -pke
+xmodmap -pke
+vim .vimrc
+vim .conkyrc
+vim .conkyrc
+xlsfonts|grep tew
+ls
+ls
+c
+ls
+bdftopcf uushi.bdf -o uushi.pcf
+sudo mv uushi.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc/
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+c
+xlsfonts|grep tew
+xlsfonts|grep uus
+ls
+lxsession
+ls
+cat .Xdefaults
+ls
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+tmux a -t big
+tmux a -t big
+xrdb -merge .Xdefaults
+tmux a -t big
+tmux a -t big
+xrdb -merge .Xdefaults
+htop
+tmux a -t big
+c
+c
+tmux a -t big
+ls
+xrdb -merge .Xdefaults
+htop
+asgsafa
+newsbeuter
+newsbeuter
+ncmpcpp
+asf
+c
+ncmpcpp
+ncmpcpp
+ncmpcpp
+tty-clock -c -C2 -D
+xrdb -merge .Xdefaults
+ls
+ls
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+ls
+xrdb -merge .Xdefaults
+ls -a
+vim .config/bspwm/scripts/config.sh
+c
+ls
+ls -a
+c
+ls
+ncmpcpp
+htop
+ncmpcpp
+htop
+xrdb -merge .Xdefaults
+isoinfo
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+vim .Xdefaults
+ncmpcpp
+tmux a -t big
+htop
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+newsbeuter
+ttyload
+c
+newsbeuter
+xlsfonts|grep hermit
+ls
+xrdb -merge .Xdefaults
+ls
+cd Downloads/
+tar xvfz bdf-tewi-git.tar.gz
+cd bdf-tewi-git
+makepkg
+pacins tewi-font
+ls
+pacins bdf-tewi-git-0.181.1407395-1-any.pkg.tar.xz
+xlsfonts|grep tewi
+xset fp rehash
+xlsfonts|grep tewi
+xrdb -merge .Xdefaults
+cd
+xrdb -merge .Xdefaults
+cd Downloads
+cd bdf-tewi-git
+cd src
+cd tewi-font
+gbdfed Tewi-normal-11.bdf
+pacre bdf-tewi-git
+gbdfed Tewi2a-normal-11.bdf
+ls
+bdftopcf Tewi-normal-11.bdf -o Tewi-normal-11.pcf
+ls
+sudo mv Tewi-normal-11.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc/
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+xlsfonts|grep tewi
+vim .conkyrc
+vim .config/bspwm/scripts/status.sh
+cat /sys/class/power_supply/BAT0/capacity
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+c
+vim .config/bspwm/scripts/config.sh
+vim .config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+cat /sys/class/power_supply/BAT0/capacity
+htop
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+time
+chmod +x .config/bspwm/scripts/battery.sh
+rm -rf .config/bspwm/scripts/status.sh
+killall conky
+killall dzen2
+./.config/bspwm/dzen
+teamviewer --daemon-start
+sudo teamviewer --daemon-start
+sudo teamviewer --daemon start
+cd /opt
+cd Downloads
+tar xvfz teamviewer_linux.tar.gz
+ls
+cd teamviewer
+teamviewer
+./teamviewer
+./teamviewer
+pacre teamviewer
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+vim .config/bspwm/dzen
+iwget
+iwconfig
+alsamixer
+alsamixer
+killall dzen2
+./.config/bspwm/dzen
+xrdb -merge .Xdefaults
+ls
+xrdb -merge .Xdefaults
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+pacin arp-scan
+arp-scan
+sudo arp-scan
+sudo arp-scan --interface=wlo1 --localnet
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+c
+htop
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+htop
+c
+ncmpcpp
+c
+ls
+c
+exit
+killall dzen2
+./.config/bspwm/dzen
+vim .config/bspwm/dmenuwrapper
+v .compton.conf
+killall compton
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+cd Downloads
+tar xvfz dmenu2.tar.gz
+cd dmenu2
+makepkg
+pacins dmenu2-0.2-1-x86_64.pkg.tar.xz
+killall compton
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+dmenu --help
+dmenu -class
+dmenu -class dmenu
+vim .config/bspwm/dmenuwrapper
+v .compton.conf
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/vinyl_record_player_black_and_white-wallpaper-1920x1080.jpg
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+bspc config top_padding 4
+bspc config bottom_padding 15
+bspc config top_padding 15
+bspc config bottom_padding 4
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+vim .config/bspwm/dzen
+vim .config/bspwm/bspwmrc
+mkdir TEST
+ls
+chmod 766 TEST
+ls
+chmod 644 TEST
+ls
+chmod 666 TEST
+ls
+vim .config/bspwm/panel
+chmod +x untitled.sh
+untitled.sh | dzen2 -p -ta l
+./untitled.sh | dzen2 -p -ta l
+./untitled.sh | dzen2 -p -ta l
+vim .config/bspwm/panel
+./untitled.sh | dzen2 -p -ta l
+c
+vim .config/bspwm/panel
+vim .config/bspwm/panel.cfg
+vim .config/bspwm/panel
+./untitled.sh | dzen2 -p -ta l
+./untitled.sh | dzen2 -p -ta l
+vim untitled.sh
+vim untitled.sh
+cd .config/bspwm/panel
+cd .config/bspwm/panel
+cd .config/bspwm/
+vim panel_bar
+./panel_bar | dzen2 -p -ta l
+cat panel
+v panel_bar
+./panel_bar | dzen2 -p -ta l
+vim .config/bspwm/panel
+newsbeuter
+ncmpcpp
+htop
+tty-clock -c -C2 -D
+tmux a -t big
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/pacman.png
+exit
+c
+archey3
+c
+archey3; scrot -D 3
+c
+scrot --help
+c
+cat untitled
+c
+cat untitled.sh
+c
+cat public_html/test-laravel/composer.json
+c
+scrot --help
+c
+exit
+c
+c
+C
+C
+c
+bspc config window_gap 24
+bspc config window_gap 12
+bspc control window_gap 12
+c
+exit
+weechat
+killall tmux
+exit
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/pacman.png
+archey3;
+c
+scrot --help
+c;archey3;scrot -c -d3
+c
+archey3;scrot -c -d3
+c
+archey3;scrot -c -d3
+exit
+git add .zsh/
+git add .zshrc
+git add .config/bspwm/
+git add .config/sxhkd/
+git add .Xdefaults
+git add .tmux.conf
+git add .vimrc
+git add .vim/
+git add .feh.sh
+git add .conkyrc
+git add .compton.conf
+git add .bspwm_auto
+git add .ncmpcpp/config
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git add .bspwm_auto
+git push https://github.com/mpux/configs
+ls -a
+cd Pictures/Wallpapers/Rotate
+rm -f pacman.png
+exit
+vim .conkyrc
+vim .conkyrc
+vim .conkyrc
+reboot
+newsbeuter
+ncmpcpp
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+vim .compton.conf
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+vim .compton.conf
+killall compton
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+vim .compton.conf
+vim .conkyrc
+vim public_html/PGDFILOVCI/index.php
+vim .vimrc
+ls
+ls
+ls
+cd Downloads
+tar xvfz ttf-monaco.tar.gz
+cd ttf-monaco
+makepkg
+pacins ttf-monaco-6.1-2-any.pkg.tar.xz
+xset fp rehash
+xlsfonts|grep monaco
+ls
+c
+ls
+ls
+ls
+ls
+ls
+c
+archey3
+c
+tmux a -t big
+tmux a -t big
+ncmpcpp
+htop
+xrdb -merge .Xdefaults
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+sudo pacman -Sc
+cd
+cd /
+ncdu
+cd /var
+ncdu
+cd
+tmux new -s big
+mpd
+ncmpcpp
+alsamixer
+newsbeuter
+tty-clock -c -C2 -D
+htop
+vim .conkyrc_backup
+rm -rf .conkyrc_backup
+vim .conkyrc_bottom
+rm -f .conkyrc_bottom
+vim .conkyrc_left
+rm -f .conkyrc_left
+ls
+killall dzen2
+./.config/bspwm/dzen
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+cmatrix -l -u4
+compton -f -D2 -e0.5 -c -l-5 -t-5 -r5 -o0.9 -C -G -b
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-tile /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-tile /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-tile /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-tile /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-tile /home/nu/Pictures/Wallpapers/macold.png
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+ncmpcpp
+newsbeuter
+tty-clock -c -C2 -D
+htop
+tmux a -t big
+ls
+ls -a
+c
+invaders
+tmux a -t big
+tmux a -t big
+killall dzen2
+./.config/bspwm/dzen
+cmatrix -l -u4
+tmux a -t big
+newsbeuter
+tty-clock -c -C2 -D
+htop
+ncmpcpp
+killall gnome-screensaver
+cd Pictures/Wallpapers/Rotate
+ln -s /usr/share/backgrounds/gnome/Bokeh_Tails.jpg
+ls
+ln -s /usr/share/backgrounds/gnome/Road.jpg
+cd /usr/share/backgrounds
+cd gnome
+ranger
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+pacin typespeed
+typespeed
+pacin nethogs
+nethogs
+sudo nethogs
+sudo nethogs wlo1
+pacin wavemon
+pacrep wavemon
+cd Downloads
+tar xvfz wavemon.tar.gz
+cd wavemon
+makepkg
+pacins wavemon-0.7.6-1-x86_64.pkg.tar.xz
+htop
+vim .Xdefaults
+htop
+c
+ls
+newsbeuter
+wavemon
+wavemon
+htop
+htop
+tmux a -t big
+ncmpcpp
+mpd
+ncmpcpp
+git add .Xdefaults
+git push https://github.com/mpux/configs
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git add .zsh/german
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+git push https://github.com/mpux/configs
+vim .Xdefaults
+git add .Xdefaults
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+vim .Xdefaults
+git add .Xdefaults
+git commit -m "Initial commit"
+git push https://github.com/mpux/configs
+pacin bwm-ng
+alsamixer
+killall mpd
+mpd
+lxsession
+tmux a -t big
+wavemon
+bwm-ng
+ncdu
+newsbeuter
+ncmpcpp
+tty-clock -c -C2 -D
+htop
+alsamixer
+alsamixer
+vim .bspwm_auto
+lxsession
+alsamixer
+alsamixer
+killall lxsession
+gnome-session
+tty-clock -c -C2 -D
+tty-clock -c -C2 -D
+tmux a -t big
+tmux new -s main
+htop
+ncdu
+ncmpcpp
+mpd
+ncmpcpp
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+pacin wayland
+pacin xorg-server-xwayland
+htop
+htop
+tmux a -t main
+newsbeuter
+ncdu
+ncmpcpp
+ncmpcpp
+killall ncmpcpp
+ncmpcpp
+tty-clock -c -C2 -D
+htop
+reboot
+pacupg
+weechat
+alsamixer
+vim .bspwm_auto
+alsamixer
+cmatrix -l -u4
+cd Pictures/Wallpapers/Rotate
+rm -f Road.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/Miles-Teller-Drumming-Whiplash-2014-Movie-Wallpaper.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+htop
+htop
+htop
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+./.config/bspwm/dzen
+killall dzen2
+vim .config/bspwm/dzen
+htop
+ncdu
+cmatrix -l -u4
+ncdu
+ncmpcpp
+mpd
+ncmpcpp
+tmux new -s main
+htop
+ncdu
+ncmpcpp
+tmux a -t main
+xrdb -merge .Xdefaults
+htop
+ncdu
+tmux a -t main
+invaders
+ncmpcpp
+xrdb -merge .Xdefaults
+ncmpcpp
+ncmpcpp
+ncmpcpp
+xrdb -merge .Xdefaults
+ncmpcpp
+ncdu
+htop
+tmux a -t main
+tmux a -t main
+htop
+ncdu
+ncmpcpp
+htop
+xrdb -merge .Xdefaults
+tmux a -t main
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+xrdb -merge .Xdefaults
+invaders
+tmux a -t main
+htop
+ncdu
+ncmpcpp
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+vim .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+xrdb -merge .Xdefaults
+vim .Xdefaults
+ncmpcpp
+ncdu
+htop
+tmux a -t main
+vim .zsh/prompt
+c
+exit
+su
+c
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+sudo cp -r .zsh .zshrc /root
+su
+su
+sudo cp -r .zsh .zshrc /root
+su
+exit
+ls
+cd ~
+c
+ls
+ls -a
+c
+ls -h
+ls -a
+blueman-applet
+bluedevil-wizard
+xrdb -merge .Xdefaults
+ncdu
+lspci
+c
+ls
+c
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+c
+sensord
+c
+pacupg
+c
+ncdu
+ncduÄƒ­
+ncdu
+xrdb -merge .Xdefaults
+ncdu
+xrdb -merge .Xdefaults
+ncdu
+xrdb -merge .Xdefaults
+ls
+ls -a
+c
+tmux a -t main
+htop
+top
+htop
+ncdu
+c
+ncmpcpp
+mpd
+ncmpcpp
+ncmpcpp
+tmux a -t main
+htop
+ncdu
+ncmpcpp
+VENDORS IN THE COMMUNITY
+Feature Spotlight: Navigating Python Code
+on the JetBrains page
+The Present and Future of Mobile Device Management- A blog
+on the ManageEngine page
+Beware, Pirates Ahoy!
+on the Egnyte page
+Vendor Contact
+on the ShoreTel page
+Need more badges?
+on the Webroot page
+Microsoft Windows 7
+Feb 06, 2015
+â€ƒ¼Windows 7 has been a godsend since Vista was...
+â€ƒ² Lamen
+Ask Question Answer Questions My Profile Subscribe Shortcuts
+Scripts
+Check your gmail from Linux command line
+A Bash script in the Remote Control category
+Rating: 1 2 3 4 5 (5 votes))
+Plain text without HTML formatting.
+Description
+Using curl, you are able to read each of your unread emails (subject and who it's from) in your command line.)\
+***NOTE*** change the username to your username, use your full email if you are a google apps user.\
+About the Author\
+Mini_magick20111202-30797-73yht7_medium\
+\
+utsec.net\
+Datil\
+\
+Network/Systems Administrator\
+\
+Storagecraft Technology Corporation\
+version 4.7 United States Reviews Level 1 Voice of IT Spiceworks Bug Finder SpiceBuyer SpiceWorld 2013 SpiceWorld 2012 SpiceU Attendee Contributor of the Week 7.2 Beta Tester 7.0 Beta Tester 6.2 Beta Tester 6.0 Beta Tester SpicePanel 5.2 Beta Tester Spotlight on IT SpiceU Webinar Android App Tester 5.1 Beta Tester 5.0 Beta Tester Report Contributor One of the first million users\
+Source Code\
+Important Note: This script has not been checked by Spiceworks. Please understand the risks before using it.\
+\
+1\
+\
+curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "$2\n" if /<(title|name)>(.*)<\/\1>/;'))\
+
+curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "$2\n" if /<(title|name)>(.*)<\/\1>/;'))
+curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "$2\n" if /<(title|name)>(.*)<\/\1>/;'))
+curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "$2\n" if /<(title|name)>(.*)<\/\1>/;')
+curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "$2\n" if /<(title|name)>(.*)<\/\1>/;'
+pacman -Q |wc -l
+pacman -Q |wc -l
+pacman -Q
+pacman -Q | wc -l
+pacman -Qu
+pacman -Qu |wc -l
+cd .config/bspwm/scr
+cd .config/bspwm/scripts
+chmod +x hdd.sh
+df -h
+df
+df -h | awk
+df -h | awk Use
+df -h | awk '{print $4}'
+df -h | awk '{print $5}'
+df -h | grep /dev/sda1 |awk '{print $5}'
+df -h | grep /dev/sda1 |awk '{print $5}'| sed 's/%/'
+df -h | grep /dev/sda1 |awk '{print $5}'| sed 's/%//'
+df -h
+df -h | grep /dev/sda1
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors | grep -A 0 'temp1' | cut -c15-16
+sensors | grep -A 0 'temp1'
+sensors | grep -A 0 'Core0'
+sensors | grep -A 0 'Core'
+sensors | grep -A 0 'Core 0'
+sensors | grep -A 0 'Core 0' |awk '{print $1}'
+sensors | grep -A 0 'Core 0' |awk '{print $4}'
+sensors | grep -A 0 'Core 0' |awk '{print $3}'
+sensors | grep 'Core 0' |awk '{print $3}'
+sensors | grep 'Core 0' |awk '{print $3}'|sed 's/+//'
+sensors | grep 'Core 0' |awk '{print $3}'|sed 's/+,//'
+sensors | grep 'Core 0' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk 'BEGIN{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'| tr '\n' ''
+sensors | grep 'Core' | tr '\n' ''|awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' | tr '\n' ' '|awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' | tr '\n' ','|awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk 'BEGIN{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk 'BEGIN{print $3}'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk 'BEGIN{}{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk 'BEGIN{}{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk -v'{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk -v '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk -vORS '{print $3}'|sed -e 's/+//'
+c
+sensors | grep 'Core' |awk -v '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk -v '{print $3}'|sed -e 's/+//'
+c
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//' -e ':a;N;$!ba;s/\n/+/g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//' -e ':a;N;$!ba;s/\n//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/+//g' -e ':a;N;$!ba;s/\n//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'g/+//' -e ':a;N;$!ba;s/\n//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//' -e 's/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//' -e 's/+/ /'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//' -e 'g/+//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n//' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g'
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g' -e 's/.0//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;$!ba;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 's/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e ':a;N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'N:s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'N;s/\n/  /' -e 's/+//g'
+sensors | grep 'Core' |awk '{print $3}'|sed -e 'N;s/\n/  /' -e 's/+//g'
+shotwell Screenshot_2015-02-18_13-13-46.png
+shotwell Screenshot_2015-02-18_13-13-46.png
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/1415976843927.jpg
+df -h
+systemctl start cronie
+systemctl enable cronie
+c
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+./.feh.sh
+./.feh.sh
+./.feh.sh
+crontab -l
+asd
+crontab -l
+./.feh.sh
+ls -a
+c
+crontab
+sudo crontab
+archey3
+c
+archey3
+df -h
+exit
+crontab --help
+crontab -e
+ls
+/home/nu/.feh.sh
+sudo systemctl enable cronie
+sudo systemctl start cronie
+crontab -e
+ls
+ls
+cat xy
+cat xy.txt
+crontab -e
+c
+sh .feh.sh
+crontab -e
+sh /home/nu/.feh.sh
+sh /home/nu/.feh.sh
+sh /home/nu/.feh.sh
+crontab -e
+crontab -e
+crontab -e
+cat .feh.sh
+crontab -e
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/1415976843927.jpg
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+crontab -e
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+bash
+vim
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+nano .vimrc
+vim .vimrc
+vim .feh.sh
+vim .feh.sh
+./.feh.sh
+vim .xinitrc
+vim .xinitrc
+echo TERM
+echo $TERM
+vim .xinitrc
+crontab -e
+vim .feh.sh
+vim .feh.sh
+killall feh
+killall .feh.sh
+cat .config/bspwm/dzen
+cat .config/bspwm/scripts/config.sh
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+ls
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+killall dzen2
+./.feh.sh
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+killall dzen2
+cd
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+bdftopcf small.bdf -o small.pcf
+sudo mv small.pcf /usr/share/fonts/misc/
+cd /usr/share/fonts/misc
+sudo mkfontdir; sudo fc-cache -fv; fc-cache -fv; xset fp rehash
+cd
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+ls
+vim .ncmpcpp/config
+free -m
+lspci
+colortest
+pacman -Qu
+pacupg
+pacman -Qu
+pacman -Q
+c
+pacman -S
+pacman -y
+pacman --help
+pacman -Sl
+pacin steam
+cd .local/ld_
+cd .local/share/Steam/SteamApps/common/CaesarIA
+cat caesaria.linux
+c
+ls
+./caesaria.linux
+pacin ia32
+pacrep ia32
+pacin playonlinux
+lspci
+c
+lspci
+ls *.exe
+ls
+chmod +x INSTALL.EXE
+wine INSTALL.EXE
+pacin dosbox
+wine install.exe
+ls
+yaourt -Syu
+yaourt -Syu
+pacman -Rns package-query
+sudo pacman -Rns package-query
+pacre yaourt
+sudo pacman -Rns package-query
+pacupg
+pacin yaourt
+killall dzen2
+vim .config/bspwm/scripts/config.sh
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+cd Downloads
+tar xvfz package-query.tar.gz
+cd package-query
+makepkg
+pacins package-query-1.5-2-x86_64.pkg.tar.xz
+..
+tar xvfz yaourt.tar.gz
+makepkg
+cd yaourt
+makepkg
+pacins yaourt-1.5-1-any.pkg.tar.xz
+yaourt -Syu
+yaourt -Sy moka-theme moka-icon-theme-git plank-theme-moka-git plank-theme-orchis-git moka-gtk-theme-git moka-gnome-shell-theme-git
+yaourt -Syu
+yaourt -Sy plank-theme-moka-git plank-theme-orchis-git moka-gtk-theme-git moka-gnome-shell-theme-git
+yaourt -Sy moka-theme
+ncdu
+ncmpcpp
+ncmpcpp
+vim .ncmpcpp/config
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+ncmpcpp
+htop
+htop
+tmux a -t main
+pacin rhythmbox
+vim .conkyrc
+cd .config
+cd bspwm/
+./dmenuwrapper
+./dmenuwrapper
+dmenu_run --help
+cat .conkyrc
+c
+cat .conkyrc
+lspci
+c
+lspci
+weechat
+c
+ls
+c
+pacupg
+weechat
+killall tmux
+cmatrix -l -u4
+cmatrix -u4
+pacupg
+pacupg
+c
+pacman -Qu
+pacman -Q
+pacman -Qu
+pacin thunar
+pacin thunar-volman thunar-archive-plugin thunar-media-tags-plugin tumbler
+df
+mkdir DISK
+mount -o loop Torrents/Star.Wars.Force.Unleashed.Ultimate.Sith.Edition-RELOADED/DVD1/rld-tfua.iso /home/nu/DISK
+sudo mount -o loop Torrents/Star.Wars.Force.Unleashed.Ultimate.Sith.Edition-RELOADED/DVD1/rld-tfua.iso /home/nu/DISK
+mkdir DISK2
+cd DISK
+..
+sudo mount -o loop Torrents/Star.Wars.Force.Unleashed.Ultimate.Sith.Edition-RELOADED/DVD2/rld-tfub.iso /home/nu/DISK2
+cd PlayOnLinux\'s\ virtual\ drives/swtfu/drive_c/Program\ Files/Aspyr/Star\ Wars\ The\ Force\ Unleashed
+wine SWTFU.exe
+wine SWTFU\ Launcher.exe
+htop
+cd .mpd
+rm -rf mpd.log
+c
+cd
+ncdu
+tmux a -t main
+tmux a -t main
+tmux new -s main
+ncmpcpp
+mpd
+ncmpcpp
+tmux a -t main
+ncmpcpp
+tmux new -s small
+killall wine
+killall playonlinux
+umount /home/nu/DISK
+sudo umount /home/nu/DISK
+sudo umount /home/nu/DISK2
+sudo rm -rf Crack DISK DISK2
+htop
+htop
+exit
+htop
+htop
+alsamixer
+reboot
+vim .conkyrc
+mpd
+cd .mpd
+vim .xinitrc
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+cat .config/bspwm/bspwmrc
+bspc config top_padding 27
+bspc config bottom_padding 16
+bspc config left_padding 16
+bspc config right_padding 16
+bspc config window_gap 24
+bspc config top_padding 26
+bspc config top_padding 25
+vim .config/bspwm/bspwmrc
+htop
+ncmpcpp
+tmux a -t small
+ncmpcpp
+ncdu
+tmux new -s main
+tmux new -s main
+tmux a -t main
+bspc config top_padding 25
+vim .config/bspwm/bspwmrc
+bspc config top_padding 28
+bspc config top_padding 30
+bspc config top_padding 29
+bspc config top_padding 35
+bspc config top_padding 36
+bspc config top_padding 37
+bspc config top_padding 36
+bspc config top_padding 26
+bspc config top_padding 25
+dfds
+c
+cmatrix -u4
+c
+cmatrix -l -u4
+cmatrix -l -u4
+cmatrix -l -u4
+cmatrix -l -u4
+c
+htop
+ncdu
+ncmpcpp
+mpd
+ncmpcpp
+tmux a -t main
+cd Torrents
+ls p2p
+ls S
+ls S*
+cd Knights.of.the.Old.Republic.II.Steam.Edition.Cracked-P2PGAMES
+mv p2pgames-sw.kotor2 ../
+..
+cd p2pgames-sw.kotor2
+cd Knights\ of\ the\ Old\ Republic\ II
+chmod+x swkotor2.exe
+chmod +x swkotor2.exe
+wine swkotor2.exe
+cd Torrents
+cd p2pgames-sw.kotor2
+cd Knights\ of\ the\ Old\ Republic\ II
+wine swkotor2.exe
+killall playonlinux
+htop
+c
+wine Torrents/p2pgames-sw.kotor2/Knights\ of\ the\ Old\ Republic\ II/swkotor2.exe
+wine Torrents/p2pgames-sw.kotor2/Knights\ of\ the\ Old\ Republic\ II/swkotor2.exe
+cd Torrents/p2pgames-sw.kotor2
+cd Knights\ of\ the\ Old\ Republic\ II
+wine swkotor2.exe
+ls
+cd Downloads
+..
+cd Torrents/
+cd Knights.of.the.Old.Republic.II.Steam.Edition.Cracked-P2PGAMES
+..
+cd p2pgames-sw.kotor2
+cd Knights\ of\ the\ Old\ Republic\ II
+wine swkotor2.exe
+reboot
+cmatrix -l -u4
+ld
+ls
+cd Downloads
+..
+..
+cd nu
+ls -a
+ls
+touch a.txt
+vim a.txt
+cat a.txt
+cd Torrents/Guardians\ of\ the\ Galaxy\ \(2014\)
+vlc Guardians.of.the.Galaxy.2014.720p.BluRay.x264.YIFY.mp4
+c
+..
+cd Gone\ Girl\ \(2014\)\ \[1080p\]
+..
+exit
+lspci
+c
+lspci
+w3m -dump http://weather.yahoo.com/forecast/USTX0057.html | grep -A 33 "Current"
+w3m -dump http://weather.yahoo.com/forecast/USTX0057.html
+w3m -dump https://weather.yahoo.com/slovenia/murska-sobota/filovci-529981/
+c
+w3m -dump https://weather.yahoo.com/slovenia/murska-sobota/filovci-529981/
+w3m https://weather.yahoo.com/slovenia/murska-sobota/filovci-529981/
+amixer
+amixer
+amixer
+vim .config/bspwm/scripts/vol.sh
+geany .config/bspwm/scripts/vol.sh
+alsamixer
+pacrep compiz
+sensors
+pacman -Qu
+sudo pacman -Sy
+pacman -Sy
+pacman -Sy 1>/dev/null 2>&1
+pacman -Sy 1>/dev/null 2>&1
+pacman -Sy 1
+"pacman -Sy 1>/dev/null 2>&1" > a.txt
+"pacman -Sy 1>/dev/null 2>&1" > b.txt
+echo "pacman -Sy 1>/dev/null 2>&1" > b.txt
+echo "pacman -Sy 1>/dev/null 2>&1" > c.txt
+cat b.txt
+rm -rf b.txt
+cat a.txt
+rm -rf a.txt
+cat c.txt
+pacman -Qu
+cat c.txt
+crontab -e
+cat c.txt
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pacman -Qu
+crontab -e
+pacman -Qu
+pacman -Sy 1>/dev/null 2>&1
+pacman -Qu
+pacman -Sy
+sudo pacman -Sy
+pacman -Qu
+pacman -Sy /dev/null
+cat .zsh/alias
+vim .zsh/alias
+pacman -Qu
+pacupg
+vim
+cat luka.txt
+pacre chromium
+tor
+tor-browser-en
+vim .config/sxhkd
+vim .config/bspwm/bspwmrc
+vim .config/sxhkd/sxhkdrc
+cd public_html
+mkdir DIPLOMSKA
+cd PGDFILOVCI
+cp .htaccess route.php ../DIPLOMSKA
+../DIPLOMSKA
+..
+cp PGDFILOVCI/index.php DIPLOMSKA
+cp PGDFILOVCI/header.php DIPLOMSKA
+cp PGDFILOVCI/footer.php DIPLOMSKA
+cd DIPLOMSKA
+vim .htaccess
+mkdir lib
+mkdir img
+mkdir src
+ls
+c
+ls
+ls
+c
+ls
+c
+ls
+c
+ls
+htop
+tmux a -t main
+tmux new -s main
+ncdu
+ncmpcpp
+mpd
+ncmpcpp
+yaourt -S gtk-theme-numix-osx
+alsamixer
+yaourt -S gtk-numix-green gtk-theme-numix-ocean gtk-theme-numix-solarized gtk-theme-numix-white numix-icon-theme-square numix-shine-icon-theme-git numix-themes-archblue
+yaourt -S gtk-theme-numix-green gtk-theme-numix-ocean gtk-theme-numix-solarized gtk-theme-numix-white numix-icon-theme-square numix-shine-icon-theme-git numix-themes-archblue
+yaourt -S gtk-theme-numix-ocean gtk-theme-numix-solarized gtk-theme-numix-white numix-icon-theme-square numix-shine-icon-theme-git numix-themes-archblue
+yaourt -S gtk-theme-numix-ocean gtk-theme-numix-solarized gtk-theme-numix-white numix-shine-icon-theme-git numix-themes-archblue
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+alsamixer
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+vim .config/bspwm/bspwmrc
+vim .bspwm_auto
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+yaourt -Syu
+yaourt -S gtk-theme-adwaita-osx
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+feh --randomize --bg-fill /home/nu/Pictures/Wallpapers/Rotate/*
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+cd .config/bspwm/icons
+rm *_text.xbm
+c
+ls
+rm temp_text_2.xbm
+rm -f ssid.xbm
+gdbar
+gdbar --help
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen
+killall dzen2
+./.config/bspwm/dzen

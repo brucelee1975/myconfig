@@ -1,0 +1,19 @@
+open_with 1
+shell
+rename fonts.conf
+open_with self
+mkdir nekaj
+shell unzip Izdelek.zip
+mkdir AAAAA
+rename htaccess
+rename .htaccess
+shell unzip Lekarna.zip
+open_with 0
+mkdir stih
+shell unzip INS.zip
+rename mitjakulpgd.sql
+mkdir Rotate
+open_with 
+rename 47.Ronin.srt
+rename 47.Ronin.mp4
+delete 

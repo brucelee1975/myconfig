@@ -1,0 +1,37 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1.0
+total_run_times 0
+use_spacer none
+
+#^fg(\#afd700)^i($HOME/.config/bspwm/icons/arrowl.xbm)^bg(\#afd700)^fg(\#3f3f3f)\
+#^i($HOME/.config/bspwm/icons/signal.xbm) ${wireless_essid wlo1} ^fg()^bg()\
+#\
+TEXT
+^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa) \
+^fg(\#007aff)^i($HOME/.config/bspwm/icons/wifi_ios.xbm)^fg() ${wireless_essid wlo1} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa)\
+^fg(\#ff9500)^i($HOME/.config/bspwm/icons/network_ios.xbm)^fg() ${addr wlo1} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa) \
+^fg(\#4cd964)^i($HOME/.config/bspwm/icons/down_ios.xbm)^fg() ${downspeed wlo1} \
+^fg(\#4cd964)^i($HOME/.config/bspwm/icons/up_ios.xbm)^fg() ${upspeed wlo1} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa)\
+^fg(\#5856d6)^i($HOME/.config/bspwm/icons/cpu_ios.xbm)^fg() ${cpu cpu1}%  ${cpu cpu2}%  ${cpu cpu3}%  ${cpu cpu4}%  \
+^fg(\#e72828)^i($HOME/.config/bspwm/icons/temp_ios.xbm)^fg() \
+${execi 5 sensors | grep 'Core' | awk '{print $3}'|sed -e 'N;s/\n/  /' -e 's/+//g' -e 's/C//g'} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa)\
+^fg(\#8e8e93)^i($HOME/.config/bspwm/icons/diskette_ios.xbm)^fg() ${execi 1800 ~/.config/bspwm/scripts/hdd.sh} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa)\
+${execi 2 ~/.config/bspwm/scripts/vol.sh} ^bg()\
+\
+^bg(\#fafafa)^fg(\#fafafa)^i($HOME/.config/bspwm/icons/arrowl.xbm)^fg()^bg(\#fafafa)\
+^fg(\#34aadc)${execi 20 ~/.config/bspwm/scripts/battery.sh}^fg() \
+\
+^fg(\#ff9500)^i($HOME/.config/bspwm/icons/clock_ios.xbm)^fg() ${time %a %H:%M} ^bg()\
+\

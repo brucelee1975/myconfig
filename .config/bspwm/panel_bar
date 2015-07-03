@@ -1,0 +1,84 @@
+#! /bin/sh
+#
+# Example panel for LemonBoy's bar
+
+
+source ~/.config/bspwm/panel.cfg
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+bspc control --subscribe > "$PANEL_FIFO" &
+num_mon=$(bspc query -M | wc -l)
+
+
+while read -r line ; do
+	case $line in
+		S*)
+			# clock output
+			sys_infos="${line#?}"
+			;;
+		T*)
+			# xtitle output
+			title="${line#?}"
+			;;
+		I*)
+			# wifi output
+			wifi="${line#?}"
+			;;
+		W*)
+			# bspwm internal state
+			wm_infos=""
+			IFS=':'
+			set -- ${line#?}
+			while [ $# -gt 0 ] ; do
+				item=$1
+				name=${item#?}
+				case $item in
+					M*)
+						# active monitor
+						if [ $num_mon -gt 1 ] ; then
+							wm_infos="$wm_infos %{F$ACTIVE_MONITOR_FG}%{B$ACTIVE_MONITOR_BG} ${name} %{B-}%{F-}  "
+						fi
+						;;
+					m*)
+						# inactive monitor
+						if [ $num_mon -gt 1 ] ; then
+							wm_infos="$wm_infos %{F$INACTIVE_MONITOR_FG}%{B$INACTIVE_MONITOR_BG} ${name} %{B-}%{F-}  "
+						fi
+						;;
+					O*)
+						# focused occupied desktop
+						wm_infos="${wm_infos}%{F$FOCUSED_OCCUPIED_FG} ${name} %{F-}"
+						;;
+					F*)
+						# focused free desktop
+						wm_infos="${wm_infos}%{F$FOCUSED_FREE_FG} ${name} %{F-}"
+						;;
+					U*)
+						# focused urgent desktop
+						wm_infos="${wm_infos}%{F$FOCUSED_URGENT_FG} ${name} %{F-}"
+						;;
+					o*)
+						# occupied desktop
+						wm_infos="${wm_infos}"
+						;;
+					f*)
+						# free desktop
+						wm_infos="${wm_infos}"
+						;;
+					u*)
+						# urgent desktop
+						wm_infos="${wm_infos}"
+						;;
+					L*)
+						# layout
+						wm_infos="$wm_infos  %{F$LAYOUT_FG}%{B$LAYOUT_BG}%{B-}%{F-}"
+						;;
+				esac
+				shift
+			done
+			;;
+	esac
+	printf "%s\n" "%{l}$wm_infos"
+done
+
